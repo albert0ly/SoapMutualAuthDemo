@@ -12,6 +12,9 @@ namespace WcfService1.WebTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            // WARNING: This disables all SSL certificate validation. Use only for development!
+            System.Net.ServicePointManager.ServerCertificateValidationCallback +=
+                (sender2, cert, chain, sslPolicyErrors) => true;
 
             var client = new ServiceReference1.Service1Client();
 

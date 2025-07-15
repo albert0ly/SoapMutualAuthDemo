@@ -19,14 +19,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="https://localhost:44390/Service1.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="https://com-ws336.comtec.co.il/WcfService1/Service1.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="edb32bb0-bf71-4ad6-820a-9bd81965fe1c" SourceId="1" SourceUrl="http://localhost:6594/Service1.svc?xsd=xsd0" />
-    <MetadataFile FileName="Service11.xsd" MetadataType="Schema" ID="14b8ee7e-7ccc-46ed-a6fc-ccf437cce4c2" SourceId="1" SourceUrl="http://localhost:6594/Service1.svc?xsd=xsd2" />
-    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="1aad4eda-aee6-4ce5-ada1-bc8a994d514c" SourceId="1" SourceUrl="http://localhost:6594/Service1.svc?wsdl" />
-    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="79eb8bd5-1f06-4a5e-a265-5ff656e45cf3" SourceId="1" SourceUrl="http://localhost:6594/Service1.svc?disco" />
-    <MetadataFile FileName="Service12.xsd" MetadataType="Schema" ID="c2adfc4b-6634-427c-bbd8-22a3f1703d5e" SourceId="1" SourceUrl="http://localhost:6594/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service13.xsd" MetadataType="Schema" ID="b6a58699-8a3d-481c-81e7-3ec8febe20c7" SourceId="1" SourceUrl="https://com-ws336.comtec.co.il/WcfService1/Service1.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service131.xsd" MetadataType="Schema" ID="ceb5749f-9e1a-4ce5-8c2d-975192f4828a" SourceId="1" SourceUrl="https://com-ws336.comtec.co.il/WcfService1/Service1.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service11.wsdl" MetadataType="Wsdl" ID="dcd2f054-f60f-4673-8097-dfc80a1b1e0d" SourceId="1" SourceUrl="https://com-ws336.comtec.co.il/WcfService1/Service1.svc?wsdl" />
+    <MetadataFile FileName="Service132.xsd" MetadataType="Schema" ID="8c6e9b75-2e02-47d5-8437-1c33980e37c1" SourceId="1" SourceUrl="https://com-ws336.comtec.co.il/WcfService1/Service1.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service11.disco" MetadataType="Disco" ID="4312fda6-4e3d-4218-bd57-7360bee52307" SourceId="1" SourceUrl="https://com-ws336.comtec.co.il/WcfService1/Service1.svc?disco" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
