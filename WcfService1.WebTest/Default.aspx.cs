@@ -12,6 +12,12 @@ namespace WcfService1.WebTest
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
             // WARNING: This disables all SSL certificate validation. Use only for development!
             System.Net.ServicePointManager.ServerCertificateValidationCallback +=
                 (sender2, cert, chain, sslPolicyErrors) => true;
@@ -46,6 +52,10 @@ namespace WcfService1.WebTest
             //store.Close();
 
             //var result = client.GetData(123, true);
+        }
+
+        protected void Button2_Click(object sender, EventArgs e)
+        {
 
         }
     }

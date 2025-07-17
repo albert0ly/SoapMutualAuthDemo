@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1", "WcfService1\WcfService1.csproj", "{8A682BDE-DC01-4C78-B493-2ABF8F704A5B}"
 EndProject
@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfService1.WebTest", "WcfS
 	ProjectSection(ProjectDependencies) = postProject
 		{8A682BDE-DC01-4C78-B493-2ABF8F704A5B} = {8A682BDE-DC01-4C78-B493-2ABF8F704A5B}
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LegacyWebService", "LegacyWebService\LegacyWebService.csproj", "{D987522C-229E-4D81-A415-DF9DAC377A03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{3067B796-804F-4F0A-9178-485E01609C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3067B796-804F-4F0A-9178-485E01609C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3067B796-804F-4F0A-9178-485E01609C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D987522C-229E-4D81-A415-DF9DAC377A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D987522C-229E-4D81-A415-DF9DAC377A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D987522C-229E-4D81-A415-DF9DAC377A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D987522C-229E-4D81-A415-DF9DAC377A03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
