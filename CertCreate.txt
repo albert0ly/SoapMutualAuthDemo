@@ -1,0 +1,2 @@
+ New-SelfSignedCertificate -Subject "CN=YourServiceCert" -CertStoreLocation "Cert:\LocalMachine\My"
+New-SelfSignedCertificate -Subject "CN=YourClientCert" -CertStoreLocation "Cert:\CurrentUser\My"
