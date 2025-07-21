@@ -22,15 +22,5 @@ namespace WcfService1.WebTest.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:6594/Service1.svc")]
-        public string WcfService1_WebTest_localhost_Service1 {
-            get {
-                return ((string)(this["WcfService1_WebTest_localhost_Service1"]));
-            }
-        }
     }
 }
